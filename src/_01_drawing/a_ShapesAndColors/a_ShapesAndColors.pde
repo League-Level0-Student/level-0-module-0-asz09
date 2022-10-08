@@ -27,7 +27,7 @@ rect(330,110,140,20);
 rect(350,50,96,80);
 
 fill(#FFA40F);
-triangle(96,80,50);
+triangle(400,190,400,210,350,190);
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
