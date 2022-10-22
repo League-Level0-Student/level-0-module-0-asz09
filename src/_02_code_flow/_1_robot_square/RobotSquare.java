@@ -4,7 +4,10 @@ package _02_code_flow._1_robot_square;
  *    Level 0
  */
 
-import org.jointheleague.graphical.robot.Robot;
+import 
+
+
+
 
 // This recipe draws a square using the Robot
 
@@ -19,7 +22,7 @@ public class RobotSquare {
 		      rob.penDown();    
 
         // SPEED. Make the robot move quickly. Use this command:
-		     rob.setSpeed(10);    
+		     rob.setSpeed(100);    
  
     	// COUNT. Create an int variable that will count how many sides of the square we have drawn.
     	//        The start value will be zero because no sides have yet been drawn. Use this code:
