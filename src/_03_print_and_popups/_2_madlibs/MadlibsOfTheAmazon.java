@@ -26,7 +26,8 @@ public class MadlibsOfTheAmazon {
 		String story = 
 		"So you find yourself trapped in a room with " +liq
 		+". "   +
-		"You are working on Java Projects, and suddenly, a random guy in glasses named Oswaldo Ruiz, who is very sus and works for Putin kicks down the classroom door. "  +
+		"You are working on Java Projects, and suddenly, a random guy in glasses named Oswaldo Ruiz\n"
+		+ " who is very sus and works for Putin kicks down the classroom door. "  +
 		"He blows a punch at your " +bdp+". "   +   
 		"He does this if you " +vrb+". "   + 
 		"He first asks your name if you tell him the place, which is "+plc+". "    ;
