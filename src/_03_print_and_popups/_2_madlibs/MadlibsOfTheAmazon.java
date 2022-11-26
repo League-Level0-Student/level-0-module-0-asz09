@@ -11,7 +11,7 @@ public class MadlibsOfTheAmazon {
 		// Get the player to enter an adjective
 		String adj = JOptionPane.showInputDialog("Welcome to MadLibs.jpeg, Player 1! Please enter an adjective to begin :)");
 		// Get the player to enter a type of liquid
-		String liq = JOptionPane.showInputDialog("Player 1, please enter a kind of liquid");
+		String liq = JOptionPane.showInputDialog("Player 1, please enter a kind of likwid");
 		// Get the player to enter a body part
 		String bdp = JOptionPane.showInputDialog("Player 1, please enter a random body part. Keep it appropritate!");
 		// Get the player to enter a verb
@@ -24,13 +24,15 @@ public class MadlibsOfTheAmazon {
 		// Hint:  You will need to add more + signs to join the variables to the other parts of the story.
 		
 		String story = 
-		"So you find yourself trapped in a room with " +liq
+		"So you find yourself in a lit room with multiple Macs with 3 kids and a bottle of " +liq
 		+". "   +
-		"You are working on Java Projects, and suddenly, a random guy in glasses named Oswaldo Ruiz\n"
-		+ " who is very sus and works for Putin kicks down the classroom door. "  +
-		"He blows a punch at your " +bdp+". "   +   
-		"He does this if you " +vrb+". "   + 
-		"He first asks your name if you tell him the place, which is "+plc+". "    ;
+		"You are working on Java Projects, and suddenly, a random guy in glasses named Osvaldo Ruiz\n"
+		+ " kicks down the classroom door. Glass shards fly everywhere. "  +
+		"He first yells WHERE IS MIKE JOHNSON!!!!!!!!!!!!!!!. If you do not tell him, he will blow "
+		+ "a punch at your " +bdp+". "   +   
+		"Acccording to past survivors, "
+		+ "Osvaldo will also punch you if you mention " +vrb+". "   + 
+		"According to survivors, he is only known to calm down if you tell him where "+plc+" is. "    ;
 		
 		// Make a pop-up that contains the final story. The \n escape characters add line breaks to the story. 
 		// If you need to, move them around to make your story look better in the pop-up

@@ -16,9 +16,9 @@ public class PentagonCrazy {
 		//  Put the robot's pen down
 	    rob.penDown(); 
 		//  SPEED. Make the robot go at maximum speed (100)
-	    rob.setSpeed(10);
+	    rob.setSpeed(5600);
 		//  COLOR. Set the pen to a color that you like for the shape
-rob.setPenColor(255, 3, 21);
+rob.setPenColor(113, 9, 1);
 		//  NUMBER OF SIDES. Make an int variable for the number of sides the shape will have.
 		//  				(Hint: its called PentagonCrazy)
 int sides=5;
@@ -29,7 +29,7 @@ int sides=5;
 		//         Set its start value to zero.
 int count=0;
 		//  LOOP. Start a while loop to repeat the DRAW, TURN, and INCREASE COUNT code 200 times. 
-		while(count < 200) {
+		while(count < 9900) {
 		
 	
 				//  DRAW.  Make the robot move the amount in your count variable
