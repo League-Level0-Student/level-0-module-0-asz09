@@ -10,7 +10,7 @@ public class QuizGame {
 		// ASK A QUESTION AND CHECK THE ANSWER
 		
 				// 2.  Ask the user a question 
- String input = JOptionPane.showInputDialog("Hello! I am Osvaldo Ruiz. BEHOLD! My Quiz!!!! Please answer the following question to go on. "
+String input = JOptionPane.showInputDialog("Hello! I am Osvaldo Ruiz. BEHOLD! My Quiz!!!! Please answer the following question to go on. "
 		 		+ "Are you a student with Nick Graham Crackers?");
 				// 3.  Use an if statement to check if their answer is correct
           int count = 0;
