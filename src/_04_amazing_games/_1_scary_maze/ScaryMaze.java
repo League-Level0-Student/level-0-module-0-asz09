@@ -39,7 +39,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		
 		
 		//2. Change the line of code below so that it uses YOUR maze's file name
-		maze = ImageIO.read(getClass().getResource("standardMaze.png"));
+		maze = ImageIO.read(getClass().getResource("sssseeeesssseeee.png"));
 		
 		
 		//3. Run the program. Do you see your maze? Don't continue until you do.
@@ -57,7 +57,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		int mouseColor = maze.getRGB(mouseX, mouseY);	
 		
 		//4. Print the mouseColor variable (Hint: use syso)
-		
+		System.out.println("mouseColor");
 		//5.  Run your program and move your mouse over the START COLOR. A number will be printed to the console
 		
 		
@@ -73,7 +73,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		
 		
 		//7. Make a new int variable for the background color of the maze
-
+int."setBackgroundColor";
 		
 		//8. Run the program and move the mouse over the BACKGROUND COLOR. 
 		//   Use the number that is printed to the console to set the background color variable 
@@ -98,7 +98,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		
 		//Scare your player with scary messages, sounds and pictures
 		
-		System.out.println("BOO!");
+		System.out.println("I'M COMING FOR YOU!");
 		
 		if (canPlaySounds) {
 
@@ -121,7 +121,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 	
 	/**********  DO NOT CHANGE THE CODE BELOW THIS LINE ***************/
 	
-	private void playScarySound(String soundName) {
+	private void playScarySound(String standardScarySound) {
 		File sound = new File("src/_04_amazing_games/_1_scary_maze/"+soundName);
 		if (sound.exists()) {
 			try {
