@@ -32,7 +32,7 @@ public static void main(String[] args) {
 	
 		// 6. If your variable is  1
 	if(num==1) {
-		JOptionPane.showMessageDialog(null, input+" is ok");	
+		JOptionPane.showMessageDialog(null, input+" is your mom's roommate from College.");	
 		
 		
 		
@@ -41,7 +41,7 @@ public static void main(String[] args) {
 	
 		// 7. If your variable is  2
 	if(num==2) {
-		JOptionPane.showMessageDialog(null, input+" is BORING");	
+		JOptionPane.showMessageDialog(null, input+" is boring ");	
 		
 		
 		
@@ -50,7 +50,7 @@ public static void main(String[] args) {
 	
 		// 8. If your variable is  3
 	if(num==3) {
-		JOptionPane.showMessageDialog(null, input+ "     Remember, respect opinions, they may be valuable");	
+		JOptionPane.showMessageDialog(null, input+ " is a sus face.");	
 		
 		
 		
