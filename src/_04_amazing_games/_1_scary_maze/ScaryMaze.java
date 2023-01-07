@@ -92,7 +92,11 @@ int backgroundColor = -1499549;
 			//13.  If the mouse is on the end color, pop up a message to tell them they won!
 			//    (you will need to get the number of the END COLOR by moving the mouse over it)
 
-					
+			int endColor = -5317;
+			if(mouseColor==endColor) {
+				JOptionPane.showMessageDialog(null,"You won!");
+			}
+			
 			
 		}	
 	}
@@ -102,7 +106,7 @@ int backgroundColor = -1499549;
 		//Scare your player with scary messages, sounds and pictures
 		
 		System.out.println("I'M COMING FOR YO MAMA!!!!");
-		
+		showScaryImage("76melo.jpg");
 		if (canPlaySounds) {
 
 			/**********  PLAY A SOUND ***************/
@@ -110,7 +114,8 @@ int backgroundColor = -1499549;
 			//    You can find a sound on freesound.org. Log in as leagueofamazing/code4life.		
 			//11. Play the scary sound. Hint: use the playScarySound method with the name of your sound file		
 
-			
+			playScarySound("NickGraham.wav");
+		
 		}	
 		/**********  SHOW A PICTURE ***************/
 
