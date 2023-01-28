@@ -20,10 +20,10 @@ public class DragonFight {
 			// dragonHealth to store the dragon's health - set it equal to 100
 		int dragonHealth = 100;
 		// 2. Create some variables to hold the attack strengths. These will be given different values later. 
-		int holdAttackStrengths = 100;
+		
 			// playerAttack to store the damage the player's attack will do - set it equal
 			// to 0 for now.
-		int playerAttack = -10;
+		int playerAttack = 0;
 			// dragonAttack to store the damage the dragon's attack will do - set it equal
 			// to 0 for now.
 		int dragonAttack = 0;
@@ -35,37 +35,58 @@ public class DragonFight {
 
 				// 3. Ask the player in a pop-up if they want to attack the dragon with a yell
 				// or a kick
-	JOptionPane.showMessageDialog( null, "Would you dare to fight the Dragon?");
-				// 4. If they typed in "yell":
-	String input = "yell"; {
-		JOptionPane.showMessageDialog(null, "Yelling will not help thou.");
-	}
-					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
+String choice= JOptionPane.showInputDialog("Does thou want to yell or kick today?");
+				
+if (choice.equals("yell")) {
+	// 4. If they typed in "yell":
+	  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
-			int dragonAttack1 = 4;
-				// 5. If they typed in "kick":
-	String input1 = "kick";{
-		 JOptionPane.showMessageDialog(null, "Kicking would help thou who do it correctly.";)
-	}
-					  // -- Find a random number between 0 and 25 and store it in playerAttack.
-		int playerAttack = 20;
-				// 6. Subtract the player attack value from the dragon's health
+	
+	playerAttack = ran.nextInt(10);
+	
+	
+}
 
+
+					
+
+				
+if (choice.equals("kick")) {
+	// 5. If they typed in "kick":
+	 // -- Find a random number between 0 and 25 and store it in playerAttack.
+	
+	playerAttack = ran.nextInt(25);
+	
+	
+}
+
+
+					 
+		
+				// 6. Subtract the player attack value from the dragon's health
+dragonHealth = dragonHealth-playerAttack;
 			// THE DRAGON RETALIATES
 
 				// 7. Find a random number between 0 and 35 and store it in dragonAttack
-	int dragonAttack = 27;
+	dragonAttack = ran.nextInt(35);
+	
 				// 8. Subtract the dragon attack value from the player's health
-
+playerHealth = playerHealth-dragonAttack;
 			// ASSESS THE DAMAGE
 
 				// 9. If the player's health is less than or equal to 0, the game is over,
 				//    call the playerLost() method
-	if playerHealth = 0;
+	if (playerHealth <= 0) 
+	{playerLost();
+		
+	}
 			
 				// 10. If the dragon's health is less than or equal to 0, the game is over,
 				//     call the dragonLost() method
-
+if(dragonHealth <= 0 )
+{dragonLost();
+	
+}
 			
 				// 11.  Pop up a message that tells us how much health the player and
 				// 		dragon have left.
