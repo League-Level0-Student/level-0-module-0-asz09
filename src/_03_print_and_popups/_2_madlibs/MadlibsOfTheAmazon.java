@@ -1,5 +1,5 @@
 package _03_print_and_popups._2_madlibs;
-
+     
 import javax.swing.JOptionPane;
 
 public class MadlibsOfTheAmazon {

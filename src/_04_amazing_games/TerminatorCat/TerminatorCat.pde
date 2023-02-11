@@ -51,7 +51,11 @@ void draw() {
 // 10 Use the ellipse() command to draw a circle on the eye (you will have to guess its size). 
 //    Use the x and y variables you just created to place the ellipse in the correct location.
 //                  The ellipse command looks like this:
-                ellipse(x, y, width, height);
+fill(#FF0000);
+noStroke();
+                ellipse(278, 329, 80, 80);
+                 ellipse(592,272 , 80, 80);
+                 
 // Run the program to make sure it is in the right place and is the right size.
 }
 
