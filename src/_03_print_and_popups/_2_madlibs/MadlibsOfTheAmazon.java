@@ -15,7 +15,7 @@ public class MadlibsOfTheAmazon {
 		// Get the player to enter a body part
 		String bdp = JOptionPane.showInputDialog("Player 1, please enter a random body part. Keep it appropritate!");
 		// Get the player to enter a verb
-		String vrb = JOptionPane.showInputDialog("Player 1, please enter a random verb");
+		String vrb = JOptionPane.showInputDialog("Player 1, please enter a random activity");
 		// Get the player to enter a place
 		String plc = JOptionPane.showInputDialog("Player 1, please enter a place.");
 		// The story below has has been written as a group of Strings joined together by + signs.
