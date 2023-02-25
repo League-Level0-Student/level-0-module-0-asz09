@@ -23,7 +23,7 @@ public class StarShow {
 		// Remove the drawStar(150) from the program before you proceed.
 		
 		// Set the robot speed to 100
-
+ 
 		// Make a variable to hold the X position of the Robot and set it to 10
 
 		// Make a variable to hold the Y position of the Robot and set it to 600

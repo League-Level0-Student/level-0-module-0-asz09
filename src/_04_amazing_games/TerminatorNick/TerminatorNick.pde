@@ -57,7 +57,7 @@ void draw() {
 fill(#FF0000);
 noStroke();
                 ellipse(lefteyex, lefteyey, 80, 80);
-                 ellipse(593,273   , 80, 80);
+                 ellipse(righeeyex, righeeyey, 80, 80);
                  
 // Run the program to make sure it is in the right place and is the right size.
 }
@@ -66,10 +66,11 @@ noStroke();
 //      the space bar. Run the program to test it.
 //      If you want it to move to the left, change to x-1=.
 void keyPressed() {
-    lefteyex+=1;
-    lefteyey+=-1;
-    righeeyex+=1;
-    righeeyey+=-1;
+    lefteyex+=10;
+    lefteyey+=-10;
+    righeeyex+=10;
+    righeeyey+=-10
+    ;
     
 // 12.  If you want them to go faster, add more than one each time the key is pressed    
 }
